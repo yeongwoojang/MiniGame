@@ -36,7 +36,7 @@ namespace TeamProject
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            raket.Left = Cursor.Position.X - (raket.Width / 2);  //Set the center of the racket to the position  of the cursor
+            raket.Left = Cursor.Position.X - (raket.Width / 2);
             ball.Left += speed_left; //move the ball
             ball.Top += speed_top;
 
